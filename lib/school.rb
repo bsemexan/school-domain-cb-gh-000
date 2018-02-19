@@ -7,5 +7,6 @@ class School
 
   def initialize(roster)
     @roster = roster
+    ROSTER  << roster
   end
 end
