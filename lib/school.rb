@@ -15,4 +15,7 @@ class School
   def grade
     @grade
   end
+
+  def add_student
+  end
 end
