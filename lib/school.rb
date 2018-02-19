@@ -8,6 +8,7 @@ class School
 
   def initialize(name)
     @name = name
+    ROSTER << name
   end
 
   def grade
